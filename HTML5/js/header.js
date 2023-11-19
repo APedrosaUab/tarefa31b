@@ -20,10 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 <a class="nav-link disabled" href="/">Quizzes e Questões</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/expert.html">Especialistas</a>
+                <a class="nav-link" href="expert.html">Especialistas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/sponsor.html">Patrocinadores</a>
+                <a class="nav-link" href="sponsor.html">Patrocinadores</a>
               </li>
             </ul>
           </div>
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
       <div id="navLogo" class="col-6 col-lg-3 order-1 order-lg-0">
         <a class="navbar-brand" href="/">
-          <img id="headerLogo" src="/img/animalec.png" alt="Logo Animalec">
+          <img id="headerLogo" src="img/animalec.png" alt="Logo Animalec">
         </a>
       </div>
       <div id="dadosPessoais" class="col-3 col-lg-1 order-2">
