@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </nav>
       </div>
       <div id="navLogo" class="col-6 col-lg-3 order-1 order-lg-0">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="index.html">
           <img id="headerLogo" src="img/animalec.png" alt="Logo Animalec">
         </a>
       </div>

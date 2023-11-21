@@ -94,6 +94,15 @@ a, a:hover {
   text-decoration: none;
 }
 
+#animais {
+word-wrap: normal;
+  width: 100%;
+  background-color: white;
+  height: 40px;
+  border: lightgray 1px solid;
+  border-radius: 3px;
+}
+
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
