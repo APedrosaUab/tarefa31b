@@ -20,10 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <a class="nav-link disabled" href="/">Quizzes e Questões</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="expert.html">Especialistas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sponsor.html">Patrocinadores</a>
+                <a class="nav-link" href="index.html">Admin</a>
               </li>
             </ul>
           </div>
