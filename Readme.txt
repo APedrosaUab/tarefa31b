@@ -4,3 +4,5 @@ https://github.com/APedrosaUab/tarefa31b
 Wireframe e Protótipo
 Directório:
 HTML5\wireframe_mockup
+
+// Actualizado a 26 de novembro 2023 com base no acesso ao projecto
