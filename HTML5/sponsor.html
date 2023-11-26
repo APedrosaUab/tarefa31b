@@ -8,8 +8,7 @@
   <title>ANIMALEC</title>
   <link rel="icon" href="animalec.ico" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
 
   <!-- Theme CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -187,12 +186,16 @@
       </table>
     </div>
   </div>
+ 
+  <div id="footerContainer"></div>
 
-  <!-- Scripts -->
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="js/animalec.js"></script>
+
   <script>
     function abrirModal(id, nome, animal, experiencia, localizacao) {
       $("#modalPatrocinadorId").text(id);
@@ -204,7 +207,11 @@
     }
 
     function removerLinha(id) {
-      $("#" + id).remove();
+      var eliminalinha = document.getElementById(id);
+      if (eliminalinha) {
+        eliminalinha.remove();
+        alert(`Registo com id ${id} Eliminado`)
+      }
     }
   </script>
 </body>
